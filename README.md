@@ -53,7 +53,7 @@ To use the application, follow these steps:
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+**Trent Ransom** (trent.ransom@gmail.com)
 
 
 ---
