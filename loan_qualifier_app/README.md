@@ -1,25 +1,50 @@
-# Loan Qualifier App
-
-New application which allows a user to find a list of loans for which they qualify.
+# Loan Qualifier Application
 
 !['Money Changing Hands'](https://miro.medium.com/max/600/1*ffJT-LnlktMLq4kL0t2Epg.webp)
+
+This application is designed to help potential borrowers determine whether they are eligible for a loan. By providing some basic information about their income and credit history, users can get a quick idea of whether they may be able to secure a loan and what their options might be.
+
+
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+In order to use the loan qualifier application, you will need:
+
+- Python 3.7 or higher
+- The questionary and fire libraries installed (at least versions 1.5.2 and 0.3.1, respectively)
+- A device with internet access
+
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+To install the loan qualifier application, follow these steps:
+
+1. Make sure you have Python 3.7 or higher installed on your device.
+2. Install the questionary and fire libraries by running the following commands:
+```
+pip install questionary
+pip install fire
+```
+3. Download the loan qualifier application files and unzip them to a local directory on your device.
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+To use the application, follow these steps:
+
+1. Download and install the application on your device (see the Installation Guide above for instructions).
+2. Run the application from the command line or terminal.
+3. When prompted, enter the filepath for the bank data file. This file should contain information about the available loan options.
+4. Next, you will be asked to provide your credit score, monthly debt, monthly income, the size of the loan you are requesting, and the value of your home.
+5. The application will then use this information to calculate your potential loan eligibility and provide you with a list of qualifying loans.
+6. If you want to save this list of qualifying loans to a CSV file, you will be asked to provide a filepath for the new file.
+
+
+![Sample CLI Interaction](https://raw.githubusercontent.com/trentransom/Screenshots/main/Loan%20Qualifier%20Screenshot.png?token=GHSAT0AAAAAAB33EKRNNWD63L2FFUM5F3OEY4SUESQ)
 
 ---
 
@@ -27,8 +52,8 @@ This section should include screenshots, code blocks, or animations explaining h
 
 In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
 
+
 ---
 
-## License
-
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+## Disclaimer 
+Please note that the loan qualifier application is intended for informational purposes only and does not constitute financial advice. The results provided by the application are not a guarantee of loan eligibility and are subject to change based on a variety of factors. It is important to consult with a financial advisor before making any decisions about borrowing.
