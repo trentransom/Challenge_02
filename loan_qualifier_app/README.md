@@ -1,7 +1,8 @@
-# Project Title
+# Loan Qualifier App
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+New application which allows a user to find a list of loans for which they qualify.
 
+!['Money Changing Hands'](https://miro.medium.com/max/600/1*ffJT-LnlktMLq4kL0t2Epg.webp)
 ---
 
 ## Technologies
