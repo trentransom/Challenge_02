@@ -38,9 +38,9 @@ To use the application, follow these steps:
 
 1. Download and install the application on your device (see the Installation Guide above for instructions).
 2. Run the application from the command line or terminal.
-```
-% python loan_qualifier_app.py
-```
+    ```
+    % python loan_qualifier_app.py
+    ```
 3. When prompted, enter the filepath for the bank data file. This file should contain information about the available loan options.
 4. Next, you will be asked to provide your credit score, monthly debt, monthly income, the size of the loan you are requesting, and the value of your home.
 5. The application will then use this information to calculate your potential loan eligibility and provide you with a list of qualifying loans.
