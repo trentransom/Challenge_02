@@ -30,7 +30,7 @@ def load_csv(csvpath):
             data.append(row)
     return data
 
-def save_csv(bank_data_filtered):    
+def save_csv(bank_data_filtered, filepath):    
     '''
     Writes a new csv file with the filtered bank data
 
@@ -39,7 +39,7 @@ def save_csv(bank_data_filtered):
     
     Returns no value
     '''
-    csvpath = Path('Filtered_Loan_Data.csv')   
+    csvpath = Path(filepath)   
     with open(csvpath, 'w', newline = '') as csvfile:  #create a new writable file
         csvwriter = csv.writer(csvfile)    #create a csvwriter
         header = ['Lender', 'Max Loan Amount', 'Max LTV', 'Max DTI', 'Min Credit Score', 'Interest Rate'] #add the original header to the new file

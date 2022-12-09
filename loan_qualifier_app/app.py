@@ -112,6 +112,12 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
+    confirm = questionary.confirm('Would you like to save your list of qualifying loans?').ask()
+    if confirm:
+        filepath = questionary.text('Enter the filepath to which you would like to save your loan (must end with ".csv"): \n').ask()
+        save_csv(qualifying_loans, filepath)
+    else:
+        pass
 
 
 def run():
@@ -128,7 +134,6 @@ def run():
         bank_data, credit_score, debt, income, loan_amount, home_value
     )
 
-    save_csv(qualifying_loans)
 
     # Save qualifying loans
     save_qualifying_loans(qualifying_loans)
