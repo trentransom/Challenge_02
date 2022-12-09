@@ -56,7 +56,3 @@ To use the application, follow these steps:
 **Trent Ransom** (trent.ransom@gmail.com)
 
 
----
-
-## Disclaimer 
-Please note that the loan qualifier application is intended for informational purposes only and does not constitute financial advice. The results provided by the application are not a guarantee of loan eligibility and are subject to change based on a variety of factors. It is important to consult with a financial advisor before making any decisions about borrowing.
