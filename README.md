@@ -25,8 +25,8 @@ To install the loan qualifier application, follow these steps:
 1. Make sure you have Python 3.7 or higher installed on your device.
 2. Install the questionary and fire libraries by running the following commands:
 ```
-pip install questionary
-pip install fire
+% pip install questionary
+% pip install fire
 ```
 3. Download the loan qualifier application files and unzip them to a local directory on your device.
 
